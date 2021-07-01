@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Arrow.png">
+	<!-- Created with Adobe Animate version 21.0.4.39603 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Arrow DOWN0000" x="0" y="0" width="456" height="490" frameX="0" frameY="0" frameWidth="456" frameHeight="490"/>
+	<SubTexture name="Arrow DOWN0001" x="0" y="0" width="456" height="490" frameX="0" frameY="0" frameWidth="456" frameHeight="490"/>
+	<SubTexture name="Arrow DOWN0002" x="0" y="0" width="456" height="490" frameX="0" frameY="0" frameWidth="456" frameHeight="490"/>
+	<SubTexture name="Arrow DOWN0003" x="0" y="0" width="456" height="490" frameX="0" frameY="0" frameWidth="456" frameHeight="490"/>
+	<SubTexture name="Arrow DOWN0004" x="0" y="0" width="456" height="490" frameX="0" frameY="0" frameWidth="456" frameHeight="490"/>
+	<SubTexture name="Arrow DOWN0005" x="0" y="0" width="456" height="490" frameX="0" frameY="0" frameWidth="456" frameHeight="490"/>
+	<SubTexture name="Arrow DOWN0006" x="0" y="0" width="456" height="490" frameX="0" frameY="0" frameWidth="456" frameHeight="490"/>
+	<SubTexture name="Arrow DOWN0007" x="0" y="0" width="456" height="490" frameX="0" frameY="0" frameWidth="456" frameHeight="490"/>
+	<SubTexture name="Arrow DOWN0008" x="0" y="0" width="456" height="490" frameX="0" frameY="0" frameWidth="456" frameHeight="490"/>
+	<SubTexture name="Arrow DOWN0009" x="0" y="0" width="456" height="490" frameX="0" frameY="0" frameWidth="456" frameHeight="490"/>
+	<SubTexture name="Arrow DOWN0010" x="0" y="0" width="456" height="490" frameX="0" frameY="0" frameWidth="456" frameHeight="490"/>
+	<SubTexture name="Arrow DOWN0011" x="0" y="0" width="456" height="490" frameX="0" frameY="0" frameWidth="456" frameHeight="490"/>
+	<SubTexture name="Arrow DOWN0012" x="0" y="0" width="456" height="490" frameX="0" frameY="0" frameWidth="456" frameHeight="490"/>
+	<SubTexture name="Arrow DOWN0013" x="0" y="0" width="456" height="490" frameX="0" frameY="0" frameWidth="456" frameHeight="490"/>
+	<SubTexture name="Arrow DOWN0014" x="0" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow Idle0000" x="456" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow Idle0001" x="456" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow Idle0002" x="456" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow Idle0003" x="456" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow Idle0004" x="456" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow Idle0005" x="456" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow Idle0006" x="456" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow Idle0007" x="456" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow Idle0008" x="456" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow Idle0009" x="456" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow Idle0010" x="456" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow Idle0011" x="456" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow LEFT0000" x="912" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow LEFT0001" x="912" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow LEFT0002" x="912" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow LEFT0003" x="912" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow LEFT0004" x="912" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow LEFT0005" x="912" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow LEFT0006" x="912" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow LEFT0007" x="912" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow LEFT0008" x="912" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow LEFT0009" x="912" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow LEFT0010" x="912" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow LEFT0011" x="912" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow LEFT0012" x="912" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow LEFT0013" x="912" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow LEFT0014" x="912" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow RIGHT0000" x="1368" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow RIGHT0001" x="1368" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow RIGHT0002" x="1368" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow RIGHT0003" x="1368" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow RIGHT0004" x="1368" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow RIGHT0005" x="1368" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow RIGHT0006" x="1368" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow RIGHT0007" x="1368" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow RIGHT0008" x="1368" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow RIGHT0009" x="1368" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow RIGHT0010" x="1368" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow RIGHT0011" x="1368" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow RIGHT0012" x="1368" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow RIGHT0013" x="1368" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow RIGHT0014" x="1368" y="0" width="456" height="490"/>
+	<SubTexture name="Arrow UP0000" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0001" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0002" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0003" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0004" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0005" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0006" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0007" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0008" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0009" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0010" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0011" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0012" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0013" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0014" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0015" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0016" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0017" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0018" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0019" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0020" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0021" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0022" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0023" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0024" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0025" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0026" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0027" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0028" x="0" y="490" width="456" height="490"/>
+	<SubTexture name="Arrow UP0029" x="0" y="490" width="456" height="490"/>
+</TextureAtlas>

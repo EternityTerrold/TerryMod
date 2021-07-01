@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rutbg.png">
+	<!-- Created with Adobe Animate version 21.0.4.39603 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="rutbg0000" x="0" y="0" width="2560" height="1400" frameX="0" frameY="0" frameWidth="2560" frameHeight="1725"/>
+	<SubTexture name="rutbg0001" x="0" y="0" width="2560" height="1400" frameX="0" frameY="0" frameWidth="2560" frameHeight="1725"/>
+	<SubTexture name="rutbg0002" x="2560" y="0" width="2560" height="1400" frameX="0" frameY="0" frameWidth="2560" frameHeight="1725"/>
+	<SubTexture name="rutbg0003" x="2560" y="0" width="2560" height="1400" frameX="0" frameY="0" frameWidth="2560" frameHeight="1725"/>
+	<SubTexture name="rutbg0004" x="5120" y="0" width="2560" height="1400" frameX="0" frameY="0" frameWidth="2560" frameHeight="1725"/>
+	<SubTexture name="rutbg0005" x="5120" y="0" width="2560" height="1400" frameX="0" frameY="0" frameWidth="2560" frameHeight="1725"/>
+	<SubTexture name="rutbg0006" x="5120" y="0" width="2560" height="1400" frameX="0" frameY="0" frameWidth="2560" frameHeight="1725"/>
+	<SubTexture name="rutbg0007" x="5120" y="0" width="2560" height="1400" frameX="0" frameY="0" frameWidth="2560" frameHeight="1725"/>
+	<SubTexture name="rutbg0008" x="0" y="1400" width="2560" height="1400" frameX="0" frameY="0" frameWidth="2560" frameHeight="1725"/>
+	<SubTexture name="rutbg0009" x="0" y="1400" width="2560" height="1400" frameX="0" frameY="0" frameWidth="2560" frameHeight="1725"/>
+	<SubTexture name="rutbg0010" x="2560" y="1400" width="2560" height="1400" frameX="0" frameY="0" frameWidth="2560" frameHeight="1725"/>
+	<SubTexture name="rutbg0011" x="2560" y="1400" width="2560" height="1400" frameX="0" frameY="0" frameWidth="2560" frameHeight="1725"/>
+</TextureAtlas>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="DJ_Assets.png">
+	<!-- Created with Adobe Animate version 21.0.4.39603 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Terry Idle Dance0000" x="0" y="0" width="806" height="801"/>
+	<SubTexture name="Terry Idle Dance0001" x="0" y="0" width="806" height="801"/>
+	<SubTexture name="Terry Idle Dance0002" x="806" y="0" width="806" height="801"/>
+	<SubTexture name="Terry Idle Dance0003" x="806" y="0" width="806" height="801"/>
+	<SubTexture name="Terry Idle Dance0004" x="1612" y="0" width="806" height="801"/>
+	<SubTexture name="Terry Idle Dance0005" x="1612" y="0" width="806" height="801"/>
+	<SubTexture name="Terry Idle Dance0006" x="2418" y="0" width="806" height="801"/>
+	<SubTexture name="Terry Idle Dance0007" x="2418" y="0" width="806" height="801"/>
+	<SubTexture name="Terry Idle Dance0008" x="3224" y="0" width="806" height="801"/>
+	<SubTexture name="Terry Idle Dance0009" x="3224" y="0" width="806" height="801"/>
+	<SubTexture name="Terry Idle Dance0010" x="0" y="801" width="806" height="801"/>
+	<SubTexture name="Terry Idle Dance0011" x="0" y="801" width="806" height="801"/>
+	<SubTexture name="Terry Sing DOWN0000" x="806" y="801" width="806" height="801"/>
+	<SubTexture name="Terry Sing DOWN0001" x="806" y="801" width="806" height="801"/>
+	<SubTexture name="Terry Sing DOWN0002" x="1612" y="801" width="806" height="801"/>
+	<SubTexture name="Terry Sing DOWN0003" x="1612" y="801" width="806" height="801"/>
+	<SubTexture name="Terry Sing DOWN0004" x="1612" y="801" width="806" height="801"/>
+	<SubTexture name="Terry Sing DOWN0005" x="1612" y="801" width="806" height="801"/>
+	<SubTexture name="Terry Sing LEFT0000" x="2418" y="801" width="806" height="801"/>
+	<SubTexture name="Terry Sing LEFT0001" x="3224" y="801" width="806" height="801"/>
+	<SubTexture name="Terry Sing LEFT0002" x="3224" y="801" width="806" height="801"/>
+	<SubTexture name="Terry Sing LEFT0003" x="3224" y="801" width="806" height="801"/>
+	<SubTexture name="Terry Sing LEFT0004" x="3224" y="801" width="806" height="801"/>
+	<SubTexture name="Terry Sing RIGHT0000" x="0" y="1602" width="806" height="801"/>
+	<SubTexture name="Terry Sing RIGHT0001" x="0" y="1602" width="806" height="801"/>
+	<SubTexture name="Terry Sing RIGHT0002" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Terry Sing RIGHT0003" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Terry Sing RIGHT0004" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Terry Sing RIGHT0005" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Terry Sing RIGHT0006" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Terry Sing RIGHT0007" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Terry Sing RIGHT0008" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Terry Sing RIGHT0009" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Terry Sing RIGHT0010" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Terry Sing RIGHT0011" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Terry Sing RIGHT0012" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Terry Sing RIGHT0013" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Terry Sing RIGHT0014" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Terry Sing RIGHT0015" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Terry Sing RIGHT0016" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Terry Sing RIGHT0017" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Terry Sing Up0000" x="1612" y="1602" width="806" height="801"/>
+	<SubTexture name="Terry Sing Up0001" x="1612" y="1602" width="806" height="801"/>
+	<SubTexture name="Terry Sing Up0002" x="2418" y="1602" width="806" height="801"/>
+	<SubTexture name="Terry Sing Up0003" x="2418" y="1602" width="806" height="801"/>
+	<SubTexture name="Terry Sing Up0004" x="2418" y="1602" width="806" height="801"/>
+	<SubTexture name="Terry Sing Up0005" x="2418" y="1602" width="806" height="801"/>
+</TextureAtlas>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="DJSpace_Assets.png">
+	<!-- Created with Adobe Animate version 21.0.4.39603 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Space Idle Dance0000" x="0" y="0" width="806" height="801"/>
+	<SubTexture name="Space Idle Dance0001" x="0" y="0" width="806" height="801"/>
+	<SubTexture name="Space Idle Dance0002" x="806" y="0" width="806" height="801"/>
+	<SubTexture name="Space Idle Dance0003" x="806" y="0" width="806" height="801"/>
+	<SubTexture name="Space Idle Dance0004" x="1612" y="0" width="806" height="801"/>
+	<SubTexture name="Space Idle Dance0005" x="1612" y="0" width="806" height="801"/>
+	<SubTexture name="Space Idle Dance0006" x="2418" y="0" width="806" height="801"/>
+	<SubTexture name="Space Idle Dance0007" x="2418" y="0" width="806" height="801"/>
+	<SubTexture name="Space Idle Dance0008" x="3224" y="0" width="806" height="801"/>
+	<SubTexture name="Space Idle Dance0009" x="3224" y="0" width="806" height="801"/>
+	<SubTexture name="Space Idle Dance0010" x="0" y="801" width="806" height="801"/>
+	<SubTexture name="Space Idle Dance0011" x="0" y="801" width="806" height="801"/>
+	<SubTexture name="Space Sing DOWN0000" x="806" y="801" width="806" height="801"/>
+	<SubTexture name="Space Sing DOWN0001" x="806" y="801" width="806" height="801"/>
+	<SubTexture name="Space Sing DOWN0002" x="1612" y="801" width="806" height="801"/>
+	<SubTexture name="Space Sing DOWN0003" x="1612" y="801" width="806" height="801"/>
+	<SubTexture name="Space Sing DOWN0004" x="1612" y="801" width="806" height="801"/>
+	<SubTexture name="Space Sing DOWN0005" x="1612" y="801" width="806" height="801"/>
+	<SubTexture name="Space Sing LEFT0000" x="2418" y="801" width="806" height="801"/>
+	<SubTexture name="Space Sing LEFT0001" x="3224" y="801" width="806" height="801"/>
+	<SubTexture name="Space Sing LEFT0002" x="3224" y="801" width="806" height="801"/>
+	<SubTexture name="Space Sing LEFT0003" x="3224" y="801" width="806" height="801"/>
+	<SubTexture name="Space Sing LEFT0004" x="3224" y="801" width="806" height="801"/>
+	<SubTexture name="Space Sing RIGHT0000" x="0" y="1602" width="806" height="801"/>
+	<SubTexture name="Space Sing RIGHT0001" x="0" y="1602" width="806" height="801"/>
+	<SubTexture name="Space Sing RIGHT0002" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Space Sing RIGHT0003" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Space Sing RIGHT0004" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Space Sing RIGHT0005" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Space Sing RIGHT0006" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Space Sing RIGHT0007" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Space Sing RIGHT0008" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Space Sing RIGHT0009" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Space Sing RIGHT0010" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Space Sing RIGHT0011" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Space Sing RIGHT0012" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Space Sing RIGHT0013" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Space Sing RIGHT0014" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Space Sing RIGHT0015" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Space Sing RIGHT0016" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Space Sing RIGHT0017" x="806" y="1602" width="806" height="801"/>
+	<SubTexture name="Space Sing Up0000" x="1612" y="1602" width="806" height="801"/>
+	<SubTexture name="Space Sing Up0001" x="1612" y="1602" width="806" height="801"/>
+	<SubTexture name="Space Sing Up0002" x="2418" y="1602" width="806" height="801"/>
+	<SubTexture name="Space Sing Up0003" x="2418" y="1602" width="806" height="801"/>
+	<SubTexture name="Space Sing Up0004" x="2418" y="1602" width="806" height="801"/>
+	<SubTexture name="Space Sing Up0005" x="2418" y="1602" width="806" height="801"/>
+</TextureAtlas>
