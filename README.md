@@ -7,10 +7,10 @@ BF.xml takes GF on a date to the XLNC nightclub where they meet the owner, DJ Te
 To be added
 
 ### Mod Credits
-- [TerryEternity] (https://github.com/EternityTerrold)
-- [ZipCorner] (https://gamebanana.com/members/1850982)
-- [HyperSAM] (https://github.com/HyperHornetSAM)
-- [Pinacoin] (https://github.com/Pinacoin)
+- [TerryEternity](https://github.com/EternityTerrold)
+- [ZipCorner](https://gamebanana.com/members/1850982)
+- [HyperSAM](https://github.com/HyperHornetSAM)
+- [Pinacoin](https://github.com/Pinacoin)
 
 ### Friday Night Funkin'
  - [ninjamuffin99](https://twitter.com/ninja_muffin99) - Programming
