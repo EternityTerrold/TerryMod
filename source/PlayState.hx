@@ -172,6 +172,8 @@ class PlayState extends MusicBeatState
 	var santa:FlxSprite;
 	var rutbg:FlxSprite;
 	
+	var tvoff:FlxSprite;
+
 	var arrow:Character;
 
 	var fc:Bool = true;
@@ -1148,7 +1150,17 @@ class PlayState extends MusicBeatState
 
 		super.create();
 	}
-	
+		function doMirror(mirror:Int =0)
+		{				
+			var mirror:FlxSprite = new FlxSprite(-200, -200);
+			
+			mirror.frames = Paths.getSparrowAtlas('club3/mirror/mirrorglitch');
+
+			mirror.setGraphicSize(Std.int(mirror.width * .5));
+			
+			mirror.cameras = [camHUD];
+			add(mirror);
+		}
 	function terryIntro(?dialogueBox:DialogueBox):Void
 	{
 		var black:FlxSprite = new FlxSprite(-100, -100).makeGraphic(FlxG.width * 2, FlxG.height * 2, FlxColor.BLACK);
@@ -2220,6 +2232,28 @@ class PlayState extends MusicBeatState
 				case 163:
 					// FlxG.sound.music.stop();
 					// FlxG.switchState(new TitleState());
+			}
+		}
+
+		if (curSong == 'Ram-Error')
+		{ 
+			switch (curBeat)
+			{	
+				case 207:
+					remove(tvoff);
+					tvoff = new FlxSprite(200, 200);
+					tvoff.frames = Paths.getSparrowAtlas('club3/tvoff');
+					tvoff.animation.addByPrefix('blackout', 'blackout', 24, false);
+					tvoff.animation.play('blackout', true);
+					tvoff.antialiasing = true;
+					tvoff.updateHitbox();
+					add(tvoff);
+					tvoff.setGraphicSize(Std.int(tvoff.width * 3));
+			}
+			switch (curStep)
+			{
+				case 282:
+					doMirror();
 			}
 		}
 
