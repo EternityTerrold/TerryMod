@@ -1159,6 +1159,7 @@ class PlayState extends MusicBeatState
 			mirror.setGraphicSize(Std.int(mirror.width * .5));
 			
 			mirror.cameras = [camHUD];
+			remove(mirror);
 			add(mirror);
 		}
 	function terryIntro(?dialogueBox:DialogueBox):Void
