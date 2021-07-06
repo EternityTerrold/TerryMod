@@ -121,9 +121,10 @@ class TitleState extends MusicBeatState
 	}
 
 	var logoBl:FlxSprite;
-	var gfDance:FlxSprite;
+	//var gfDance:FlxSprite;
 	var danceLeft:Bool = false;
 	var titleText:FlxSprite;
+	var screen:FlxSprite;
 
 	function startIntro()
 	{
@@ -183,13 +184,22 @@ class TitleState extends MusicBeatState
 			// logoBl.color = FlxColor.BLACK;
 		}
 
-		gfDance = new FlxSprite(FlxG.width * 0.4, FlxG.height * 0.07);
+		/*gfDance = new FlxSprite(FlxG.width * 0.4, FlxG.height * 0.07);
 		gfDance.frames = Paths.getSparrowAtlas('gfDanceTitle');
 		gfDance.animation.addByIndices('danceLeft', 'gfDance', [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24, false);
 		gfDance.animation.addByIndices('danceRight', 'gfDance', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
 		gfDance.antialiasing = true;
 		add(gfDance);
-		add(logoBl);
+		add(logoBl);*/
+
+		screen = new FlxSprite(-140, -100);
+        screen.frames = Paths.getSparrowAtlas('title');
+        screen.animation.addByPrefix('title', "title", 24);
+        screen.animation.play('title');
+		screen.setGraphicSize(Std.int(screen.width * .7));
+		screen.antialiasing = true;
+		screen.updateHitbox();
+        add(screen);
 
 		titleText = new FlxSprite(100, FlxG.height * 0.8);
 		titleText.frames = Paths.getSparrowAtlas('titleEnter');
@@ -398,10 +408,10 @@ class TitleState extends MusicBeatState
 		logoBl.animation.play('bump');
 		danceLeft = !danceLeft;
 
-		if (danceLeft)
-			gfDance.animation.play('danceRight');
-		else
-			gfDance.animation.play('danceLeft');
+		/*if (danceLeft)
+			gfDance.animation.play('danceRight');*/
+		/*else
+			gfDance.animation.play('danceLeft');*/
 
 		FlxG.log.add(curBeat);
 
