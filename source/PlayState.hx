@@ -174,6 +174,10 @@ class PlayState extends MusicBeatState
 	
 	var tvoff:FlxSprite;
 
+	var invert:FlxSprite;
+	var mirror:FlxSprite;
+	var glitchy:FlxSprite;
+
 	var arrow:Character;
 
 	var fc:Bool = true;
@@ -1150,7 +1154,7 @@ class PlayState extends MusicBeatState
 
 		super.create();
 	}
-		function doMirror(mirror:Int =0)
+		/* function doMirror(mirror:Int =0)
 		{				
 			var mirror:FlxSprite = new FlxSprite(-200, -200);
 			
@@ -1161,7 +1165,8 @@ class PlayState extends MusicBeatState
 			mirror.cameras = [camHUD];
 			remove(mirror);
 			add(mirror);
-		}
+		} */
+
 	function terryIntro(?dialogueBox:DialogueBox):Void
 	{
 		var black:FlxSprite = new FlxSprite(-100, -100).makeGraphic(FlxG.width * 2, FlxG.height * 2, FlxColor.BLACK);
@@ -2253,8 +2258,35 @@ class PlayState extends MusicBeatState
 			}
 			switch (curStep)
 			{
-				case 282:
-					doMirror();
+				case 282 | 299 | 347 | 379 | 419 | 629 | 698:
+					remove(invert);
+					invert = new FlxSprite(-600, -200);
+					invert.frames = Paths.getSparrowAtlas('club3/invertglitch');
+					invert.animation.addByPrefix('invertglitch', 'invertglitch', 24, false);
+					invert.animation.play('invertglitch', true);
+					invert.antialiasing = true;
+					invert.updateHitbox();
+					add(invert);
+
+				case 286 | 351 | 419 | 463 | 589 | 685 | 746:
+					remove(mirror);
+					mirror = new FlxSprite(-600, -200);
+					mirror.frames = Paths.getSparrowAtlas('club3/mirrorglitch');
+					mirror.animation.addByPrefix('mirrorglitch', 'mirrorglitch', 24, false);
+					mirror.animation.play('mirrorglitch', true);
+					mirror.antialiasing = true;
+					mirror.updateHitbox();
+					add(mirror);
+
+				case 314 | 411 | 415 | 557 | 649 | 681 | 742:
+					remove(glitchy);
+					glitchy = new FlxSprite(-600, -200);
+					glitchy.frames = Paths.getSparrowAtlas('club3/glitchyglitch');
+					glitchy.animation.addByPrefix('glitchyglitch', 'glitchyglitch', 24, false);
+					glitchy.animation.play('glitchyglitch', true);
+					glitchy.antialiasing = true;
+					glitchy.updateHitbox();
+					add(glitchy);
 			}
 		}
 
