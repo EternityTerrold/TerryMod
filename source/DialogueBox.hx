@@ -112,10 +112,32 @@ class DialogueBox extends FlxSpriteGroup
 			return;
 
 		
-		if (PlayState.SONG.song.toLowerCase() == 'hard-rut' || PlayState.SONG.song.toLowerCase() == 'spacetail' || PlayState.SONG.song.toLowerCase() == 'ram-error')
+		if (PlayState.SONG.song.toLowerCase() == 'hard-rut')
 		{
 			portraitLeft = new FlxSprite(150, 200);
 			portraitLeft.frames = Paths.getSparrowAtlas('portraits/goat_portrait', 'shared');
+			portraitLeft.animation.addByPrefix('enter', 'goatportrait', 24, false);
+			portraitLeft.setGraphicSize(Std.int(portraitLeft.width * PlayState.daPixelZoom * 0.175));
+			portraitLeft.updateHitbox();
+			portraitLeft.scrollFactor.set();
+			add(portraitLeft);
+			portraitLeft.visible = false;
+		}
+		if (PlayState.SONG.song.toLowerCase() == 'spacetail')
+		{
+			portraitLeft = new FlxSprite(150, 200);
+			portraitLeft.frames = Paths.getSparrowAtlas('portraits/goat_portrait2', 'shared');
+			portraitLeft.animation.addByPrefix('enter', 'goatportrait', 24, false);
+			portraitLeft.setGraphicSize(Std.int(portraitLeft.width * PlayState.daPixelZoom * 0.175));
+			portraitLeft.updateHitbox();
+			portraitLeft.scrollFactor.set();
+			add(portraitLeft);
+			portraitLeft.visible = false;
+		}
+		if (PlayState.SONG.song.toLowerCase() == 'ram-error')
+		{
+			portraitLeft = new FlxSprite(150, 200);
+			portraitLeft.frames = Paths.getSparrowAtlas('portraits/goat_portrait3', 'shared');
 			portraitLeft.animation.addByPrefix('enter', 'goatportrait', 24, false);
 			portraitLeft.setGraphicSize(Std.int(portraitLeft.width * PlayState.daPixelZoom * 0.175));
 			portraitLeft.updateHitbox();
