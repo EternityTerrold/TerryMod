@@ -168,13 +168,15 @@ class DialogueBox extends FlxSpriteGroup
 		}
 
 		dropText = new FlxText(242, 502, Std.int(FlxG.width * 0.6), "", 32);
-		dropText.font = 'Pixel Arial 11 Bold';
+		dropText.font = 'square deal Regular';
 		dropText.color = 0xFFD89494;
+		dropText.alpha = 0;
 		add(dropText);
 
+		//actual text
 		swagDialogue = new FlxTypeText(240, 500, Std.int(FlxG.width * 0.6), "", 32);
-		swagDialogue.font = 'Pixel Arial 11 Bold';
-		swagDialogue.color = 0xFF3F2021;
+		swagDialogue.font = 'square deal Regular';
+		swagDialogue.color = 0xFF3ac333;
 		swagDialogue.sounds = [FlxG.sound.load(Paths.sound('pixelText'), 0.6)];
 		add(swagDialogue);
 
@@ -236,7 +238,8 @@ class DialogueBox extends FlxSpriteGroup
 						portraitLeft.visible = false;
 						portraitRight.visible = false;
 						swagDialogue.alpha -= 1 / 5;
-						dropText.alpha = swagDialogue.alpha;
+						//originally swagDialouge.alpha, changed to 0
+						dropText.alpha = 0;
 					}, 5);
 
 					new FlxTimer().start(1.2, function(tmr:FlxTimer)
