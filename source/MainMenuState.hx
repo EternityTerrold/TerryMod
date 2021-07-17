@@ -21,6 +21,8 @@ import Discord.DiscordClient;
 
 using StringTools;
 
+
+
 class MainMenuState extends MusicBeatState
 {
 	var curSelected:Int = 0;
@@ -86,31 +88,23 @@ class MainMenuState extends MusicBeatState
 
 		menuItems = new FlxTypedGroup<FlxSprite>();
 		add(menuItems);
-
-		var tex = Paths.getSparrowAtlas('FNF_main_menu_assets');
-
-		for (i in 0...optionShit.length)
-		{
-			var menuItem:FlxSprite = new FlxSprite(0, FlxG.height * 1.6);
-			menuItem.frames = tex;
-			menuItem.animation.addByPrefix('idle', optionShit[i] + " basic", 24);
-			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
-			menuItem.animation.play('idle');
-			menuItem.ID = i;
-			menuItem.screenCenter(X);
-			menuItems.add(menuItem);
-			menuItem.scrollFactor.set();
-			menuItem.antialiasing = true;
-			if (firstStart)
-				FlxTween.tween(menuItem,{y: 60 + (i * 160)},1 + (i * 0.25) ,{ease: FlxEase.expoInOut, onComplete: function(flxTween:FlxTween) 
-					{ 
-						finishedFunnyMove = true; 
-						changeItem();
-					}});
-			else
-				menuItem.y = 60 + (i * 160);
-		}
-
+		
+		var tex = Paths.getSparrowAtlas('turntablemenu');
+		var menuItem:FlxSprite = new FlxSprite(0, FlxG.height);
+		menuItem.scale.set(0.5, 0.5);
+		menuItem.frames = tex;
+		menuItem.animation.addByPrefix('idle', "story mode white", 24);
+		menuItem.animation.addByPrefix('selected', "story mode white", 24);
+		menuItem.animation.play('idle');
+		menuItem.ID = 0;
+		menuItem.screenCenter(X);
+		menuItems.add(menuItem);
+		menuItem.scrollFactor.set();
+		menuItem.antialiasing = true;
+		menuItem.y = 30;
+		menuItem.angle = 0;
+		finishedFunnyMove = true;
+		
 		firstStart = false;
 
 		FlxG.camera.follow(camFollow, null, 0.60 * (60 / FlxG.save.data.fpsCap));
@@ -144,16 +138,45 @@ class MainMenuState extends MusicBeatState
 
 		if (!selectedSomethin)
 		{
-			if (controls.UP_P)
+			if (controls.LEFT_P)
 			{
 				FlxG.sound.play(Paths.sound('scrollMenu'));
-				changeItem(-1);
+				//changeItem(-1);
+				curSelected += 1;
+				if(curSelected == optionShit.length){
+					curSelected = 0;
+				}
+				trace("move left, we have curSelected: " + curSelected);
+				menuItems.forEach(function(spr:FlxSprite)
+				{
+					//FlxTween.angle(spr, spr.angle, spr.angle - 120, 1, {ease: FlxEase.quadInOut});
+					spr.ID = curSelected;
+					spr.angle = spr.angle - 120;
+					if(spr.angle == -360){
+						spr.angle = 0;
+					}
+				});
 			}
 
-			if (controls.DOWN_P)
+			if (controls.RIGHT_P)
 			{
 				FlxG.sound.play(Paths.sound('scrollMenu'));
-				changeItem(1);
+				//changeItem(1);
+				curSelected += -1;
+				if(curSelected < 0){
+					curSelected = optionShit.length - 1;
+				}
+				trace("move right, we have curSelected: " + curSelected);
+				menuItems.forEach(function(spr:FlxSprite)
+				{
+					//FlxTween.angle(spr, spr.angle, spr.angle + 120, 1, {ease: FlxEase.quadOut});
+					spr.ID = curSelected;
+					spr.angle = spr.angle + 120;
+					if(spr.angle == 360){
+						spr.angle = 0;
+					}
+				});
+				
 			}
 
 			if (controls.BACK)
@@ -220,6 +243,7 @@ class MainMenuState extends MusicBeatState
 	function goToState()
 	{
 		var daChoice:String = optionShit[curSelected];
+		trace("curSelected = " + curSelected);
 
 		switch (daChoice)
 		{
@@ -242,21 +266,22 @@ class MainMenuState extends MusicBeatState
 		{
 			curSelected += huh;
 
-			if (curSelected >= menuItems.length)
+			if (curSelected >= menuItems.length){
 				curSelected = 0;
-			if (curSelected < 0)
+			}
+			if (curSelected < 0){
 				curSelected = menuItems.length - 1;
+			}
+			trace("NEW curSelected = " + curSelected);
 		}
 		menuItems.forEach(function(spr:FlxSprite)
 		{
 			spr.animation.play('idle');
-
 			if (spr.ID == curSelected && finishedFunnyMove)
 			{
 				spr.animation.play('selected');
 				camFollow.setPosition(spr.getGraphicMidpoint().x, spr.getGraphicMidpoint().y);
 			}
-
 			spr.updateHitbox();
 		});
 	}

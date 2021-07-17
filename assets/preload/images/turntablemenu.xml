@@ -2,13 +2,7 @@
 <TextureAtlas imagePath="turntablemenu.png">
 	<!-- Created with Adobe Animate version 21.0.4.39603 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="freeplaywhite0000" x="0" y="0" width="1340" height="1340"/>
-	<SubTexture name="freeplaywhite0001" x="0" y="0" width="1340" height="1340"/>
-	<SubTexture name="freeplaywhite0002" x="1340" y="0" width="1340" height="1340"/>
-	<SubTexture name="optionswhite0000" x="2680" y="0" width="1340" height="1340"/>
-	<SubTexture name="optionswhite0001" x="0" y="1340" width="1340" height="1340"/>
-	<SubTexture name="optionswhite0002" x="0" y="1340" width="1340" height="1340"/>
-	<SubTexture name="storymodewhite0000" x="1340" y="1340" width="1340" height="1340"/>
-	<SubTexture name="storymodewhite0001" x="2680" y="1340" width="1340" height="1340"/>
-	<SubTexture name="storymodewhite0002" x="2680" y="1340" width="1340" height="1340"/>
+	<SubTexture name="story mode white0000" x="0" y="0" width="1340" height="1340"/>
+	<SubTexture name="story mode white0001" x="1340" y="0" width="1340" height="1340"/>
+	<SubTexture name="story mode white0002" x="2680" y="0" width="1340" height="1340"/>
 </TextureAtlas>
